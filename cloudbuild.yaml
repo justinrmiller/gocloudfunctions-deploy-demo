@@ -1,0 +1,11 @@
+steps:
+  - name: gcr.io/cloud-builders/gcloud
+    args:
+      - "alpha"
+      - "functions"
+      - "deploy"
+      - "hello-world-deploy"
+      - "--entry-point=F"
+      - "--region=us-central1"
+      - "--runtime=go111"
+      - "--trigger-http"
