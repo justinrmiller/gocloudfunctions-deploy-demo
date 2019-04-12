@@ -1,6 +1,6 @@
 #!/bin/bash
 
-gcloud alpha functions deploy helloworld \
+gcloud functions deploy helloworld \
   --entry-point hello_http \
   --memory 128MB \
   --region us-central1 \
