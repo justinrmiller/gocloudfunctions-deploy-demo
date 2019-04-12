@@ -13,4 +13,4 @@ def hello_http(request):
         name = request_json['name']
     else:
         name = 'World'
-    return 'Hello, Gophers!'.format(name)
+    return 'Hello, GSC!'.format(name)
